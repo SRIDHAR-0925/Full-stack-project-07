@@ -1,0 +1,269 @@
+/* top section */
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_sec{
+    padding: 0px;
+    margin: 0 0 0 0;
+    background-color: rgb(171, 171, 229);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.dis_flx{
+    display: flex;
+    justify-content: space-between;
+}
+.top_name{
+    margin-left: 30px;
+    margin-top: 06px;
+    cursor: pointer;
+    color: navy;
+}
+.top_lis{
+    list-style: none;
+    gap: 50px;
+    margin-right: 20px;
+    margin-top: 08px;
+    font-weight: bolder;
+}
+.list_sty{
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    color: navy;
+    text-decoration: none;
+}
+.list_sty:hover{
+    color: blue;
+    text-decoration: underline 2px solid navy;
+}
+/* top section ================================================================================================================*/
+
+/* home section ---------------------------------------------------------------------------------------------------------------*/
+.home_bg_color{
+    background-color: rgb(216, 216, 248);
+    padding: 60px 60px 60px 60px;
+}
+.home_img_padd{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: -50px;
+}
+.img_pic{
+    border-radius: 40%;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.img_pic:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3)
+    0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.home_dsp{
+    padding: 50px;
+}
+.home_cv_btns{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+.home_cv_btns:hover{
+    border: 1px solid black;
+    font-weight: 500;
+}
+.home_lis{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+.home_logo{
+    gap: 10px;
+    font-size: 30px;
+    color: black;
+}
+.home_logo:hover{
+    color: rgb(142, 141, 141);
+}
+.home_li_flx{
+    margin-left: -32px;
+}
+/* home section ================================================================================================================*/
+
+/* about section ---------------------------------------------------------------------------------------------------------------*/
+.about_bg{
+    background-color: lavender;
+}
+.about_img_padd{
+    padding-top: 117px;
+    padding-bottom: 117px;
+}
+.about_imgbg_color{
+    background-color: rgb(197, 197, 224) ;
+}
+.about_txt_padd{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* about section ===============================================================================================================*/
+.vertical-line {
+    width: 2px; 
+    height: 400px;
+    background-color: black;
+}
+/* education section ------------------------------------------------------------------------------------------------------------*/
+.edu_bg_color{
+    background-color: rgb(237, 237, 250);
+    height: px;
+}
+.clum_padd{
+    padding: 11px;
+}
+.vsb_img{
+    margin-left: 15px;
+}
+.edu_flx{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+.edu_txt_adj{
+    margin-top: 20px;
+}
+.para{
+    text-align:justify ;
+}
+.sec_clum_padd{
+    padding: 11px;
+    margin-right: 50px;
+}
+.vert_line_flx{
+    display: flex;
+    justify-content: space-between;
+}
+.edu_box_1{
+    border: 1px solid black;
+    width: 95%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.edu_box_1:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+/* education section ============================================================================================================*/
+
+/* Skills section ---------------------------------------------------------------------------------------------------------------*/
+.skill_bg{
+    background-color:lavender;
+}
+.skill_vertical-line{
+    width: 2px; 
+    height: 450px;
+    background-color: black;
+}
+.skill_flx{
+    margin-top: -15px;
+}
+.fst_skill_prog{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.skill_txt{
+    margin-top: 10px;
+}
+.skill_prct{
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+.sec_skill_prog{
+    display: flex;
+    gap: 50px;
+}
+/* Skills section ===============================================================================================================*/
+
+/* project section ---------------------------------------------------------------------------------------------------------------*/
+.pro_para{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.pro_img_set{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 45px;
+}
+.pro_bg_color{
+    background-color: rgb(237, 237, 250);
+}
+.blur_image {
+    width: 480px; 
+    transition: filter 0.3s ease-in-out;
+    cursor: pointer;
+}
+.blur_image:hover {
+    filter: blur(2px);
+}
+/* project section ===============================================================================================================*/
+
+/* contact section ---------------------------------------------------------------------------------------------------------------*/
+.con_bg_color{
+    background-color: lavender;
+}
+.con_crd{
+    border-radius: 10px;
+}
+.con_img{
+    border-radius: 36px;
+    padding: 15px;
+}
+.con_btns_flx{
+    display: flex;
+    justify-content: center;
+}
+.con_btns{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+.con_btns:hover{
+    border: 1px solid black;
+    font-weight: 500;
+}
+/* contact section ===============================================================================================================*/
+.cop_ri8{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(171, 171, 229) ;
+}
+.foot_sty{
+    list-style: none;
+}
+.foot_flx{
+    display: flex;
+    justify-content: space-between;
+}
+.foot_padd{
+    padding: 10px;
+}
+.foot_marg{
+    margin-top: 70px;
+}
+.foot_font_sty{
+    cursor: pointer;
+}
+.foot_font_sty:hover{
+    color: navy;
+    text-decoration: underline 2px solid navy;
+}
+.foot_end_marg{
+    margin-right: 40px;
+}
